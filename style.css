@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -236,5 +237,128 @@ header p{
 }
 
 footer{
+    height: 49rem;
     border-top: 0.1rem solid #c8ccd1;
+}
+
+.footer-menu{
+    height: 45rem;
+    width: 140rem;
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 0rem 0rem 5rem;
+}
+
+.footer-menu-left{
+    height: 45rem;
+    width: 45rem;
+    font-size: 1.3rem;
+}
+
+.footer-menu-left .footer-left-top{
+    width: 35rem;
+    height: 11.7;
+    margin-bottom: 4rem;
+}
+
+.footer-menu-left .footer-left-top div{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu-left .footer-left-top div a{
+    display: inline-block;
+    margin-left: 4.3rem;
+    text-decoration: none;
+    color: #36c;
+}
+
+.footer-menu-left .footer-left-top div img{
+    width: 5rem;
+    height: 4rem;
+}
+
+.footer-left-bottom{
+    width: 35rem;
+    height: 11.7;
+    background-color: #f8f9fa;
+}
+
+.footer-left-bottom div{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-left-bottom strong{
+    display: inline-block;
+    margin-top: 0.2rem;
+}
+
+.footer-left-bottom .download img{
+    width: 5rem;
+    height: 4rem;
+}
+
+.footer-left-bottom p{
+    display: inline-block;
+    margin-left: 4.5rem;
+}
+
+.footer-left-bottom .apps{
+    padding-left: 3rem;
+}
+
+.footer-left-bottom .apps img{
+    width: 25rem;
+    height: 5rem;
+}
+
+.footer-menu-right{
+    width: 80rem;
+    height: 36rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-menu-right .footer-menu-item{
+    width: 17.2rem;
+    height: 9rem;
+    padding: 0.2rem;
+    margin: 0.3rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.footer-menu-right .footer-menu-item:hover{
+    background-color: #eaecf0;
+}
+
+.footer-menu-right .footer-menu-item div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+
+.footer-menu-right .footer-menu-item .footer-menu-right-item-text{
+    margin-top: 0.2rem;    
+}
+
+.footer-menu-right .footer-menu-item a{
+    color:#36c;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.2rem;
+}
+
+.footer-nav{
+    height: 5rem;
+    text-align: center;
+    border-top: 0.1rem solid #c8ccd1;
+
+}
+
+.footer-nav p{
+    display:inline-block;
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
 }
